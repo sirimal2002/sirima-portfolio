@@ -23,6 +23,10 @@ export default {
         },
       },
     },
+    aspectRatio: {
+      "w-16": "16",
+      "h-9": "9",
+    },
   },
-  plugins: [],
+  plugins: ["@tailwindcss/aspect-ratio"],
 };
