@@ -13,7 +13,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          John Doe
+          Sirima Lowanitkiattikul
         </motion.h1>
         <motion.h2
           className="text-2xl md:text-3xl text-gray-300 mb-6"
@@ -21,7 +21,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          Full Stack Developer
+          Software Developer
         </motion.h2>
         <motion.p
           className="text-gray-400 max-w-lg mx-auto mb-8"
@@ -29,7 +29,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          I build exceptional and accessible digital experiences for the web.
+          A passionate individual with a love for cooking, gaming, and caring
+          for two lovely cats, now eager to explore opportunities in software
+          engineering.
         </motion.p>
         <motion.div
           className="flex justify-center space-x-4"

@@ -223,7 +223,7 @@ export default function Contact() {
               </ul>
             </div>
             <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold text-white mb-4">Follow Us</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">Follow Me</h3>
               <div className="flex space-x-4">
                 <a
                   href="#"
