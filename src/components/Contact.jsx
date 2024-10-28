@@ -61,7 +61,7 @@ export default function Contact() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Get In Touch
+          Contact Me
         </motion.h2>
         <div className="flex flex-col lg:flex-row gap-8">
           <motion.div
@@ -210,15 +210,15 @@ export default function Contact() {
               <ul className="space-y-4 text-gray-300">
                 <li className="flex items-center">
                   <FaMapMarkerAlt className="mr-2" />
-                  123 Web Dev Lane, Codeville, TX 12345
+                  Chatuchark, Bangkok
                 </li>
                 <li className="flex items-center">
                   <FaPhone className="mr-2" />
-                  (555) 123-4567
+                  (080) 460-2019
                 </li>
                 <li className="flex items-center">
                   <FaEnvelope className="mr-2" />
-                  contact@example.com
+                  sirima.low@gmail.com
                 </li>
               </ul>
             </div>
@@ -245,7 +245,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
+            {/* <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-white mb-4">Location</h3>
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
@@ -258,7 +258,7 @@ export default function Contact() {
                   title="Google Maps"
                 ></iframe>
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

@@ -118,7 +118,7 @@ export default function Projects() {
       description:
         "A full-stack e-commerce solution with React and Node.js. Implemented features including product catalog, shopping cart, user authentication, and payment processing.",
       tech: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-      image: "/api/placeholder/400/300",
+      image: "../../src/assets/free-bg-1.png",
       features: [
         "User authentication and profile management",
         "Product search and filtering",

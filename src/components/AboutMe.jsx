@@ -82,15 +82,7 @@ const BioSection = () => {
               className="text-blue-500 hover:text-blue-400 transition-colors"
             >
               <span className="inline-block p-2 border border-blue-500 rounded-full hover:bg-blue-500/10">
-                GitHub
-              </span>
-            </a>
-            <a
-              href="#"
-              className="text-blue-500 hover:text-blue-400 transition-colors"
-            >
-              <span className="inline-block p-2 border border-blue-500 rounded-full hover:bg-blue-500/10">
-                LinkedIn
+                Download CV
               </span>
             </a>
           </motion.div>

@@ -142,9 +142,7 @@ const ExperienceCard = ({ experience }) => {
           {/* Achievements Section */}
           {experience.achievements && (
             <div>
-              <h4 className="text-white font-semibold mb-2">
-                Key Achievements:
-              </h4>
+              <h4 className="text-white font-semibold mb-2"> Achievements:</h4>
               <ul className="list-disc list-inside text-gray-300">
                 {experience.achievements.map((achievement, idx) => (
                   <li key={idx} className="mb-1">
@@ -163,30 +161,48 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   const experiences = [
     {
-      type: "Bootcamp",
-      title: "Full Stack Development Bootcamp",
-      organization: "Code Academy",
-      date: "Jan 2024 - March 2024",
-      description:
-        "Intensive 12-week program focusing on modern web development",
-      skills: ["React", "Node.js", "MongoDB", "Express"],
+      type: "Work",
+      title: "Software Engineer",
+      organization: "SIAM COMMERCIAL BANK, BANGKOK, THAILAND",
+      date: "Feb 2024 - Present",
+      skills: ["Java", "Golang", "React", "SQL", "Azure"],
       achievements: [
-        "Developed 5 full-stack applications",
-        "Collaborated with team of 4 on final project",
-        'Won "Best Project" award',
+        "Designed and implemented data transformation and loading processes based on business requirements using Java Spring Boot.",
+        "Refined and fixed front-end issues using React in an internal project, used by all company branches to generate and submit reports to the government.",
+        "Developed back-end services for a unified request platform using Golang, centralizing all requests into a single service.",
+        "Collaborated with outsourced teams to prepare and provide data for web interfaces.",
+        "Prepared comprehensive deployment documentation for the project during its go-live phase.",
       ],
       images: [
         {
-          url: "/api/placeholder/800/600",
+          url: "../../src/assets/free-bg-1.png",
           caption: "Working with team during final project presentation",
         },
         {
-          url: "/api/placeholder/800/600",
+          url: "../../src/assets/free-bg-2.png",
           caption: "Participating in a coding workshop",
         },
+      ],
+    },
+    {
+      type: "Bootcamp",
+      title: "Web Development Bootcamp",
+      organization: "Skooldio",
+      date: "Jan 2024 - March 2024",
+      description: "Intensive 12-week program focusing on web development",
+      skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Figma"],
+      achievements: [
+        "Developed a project e-commerce shop",
+        "Collaborated with team of 3 on final project",
+      ],
+      images: [
         {
-          url: "/api/placeholder/800/600",
-          caption: 'Receiving "Best Project" award',
+          url: "../../src/assets/free-bg-1.png",
+          caption: "Working with team during final project presentation",
+        },
+        {
+          url: "../../src/assets/free-bg-2.png",
+          caption: "Participating in a coding workshop",
         },
       ],
     },
