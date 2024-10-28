@@ -9,11 +9,11 @@ const Navbar = () => {
   };
 
   const menuItems = [
-    { text: "Home", href: "#" },
-    { text: "About Me", href: "#" },
-    { text: "Experience", href: "#" },
-    { text: "Projects", href: "#" },
-    { text: "Contact", href: "#" },
+    { text: "Home", href: "#hero" },
+    { text: "About Me", href: "#about" },
+    { text: "Experience", href: "#experience" },
+    { text: "Projects", href: "#project" },
+    { text: "Contact", href: "#contact" },
   ];
 
   return (

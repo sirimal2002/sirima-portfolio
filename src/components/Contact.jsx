@@ -78,7 +78,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="name"
-                    className="block text-gray-300 mb-2 flex items-center"
+                    className="text-gray-300 mb-2 flex items-center"
                   >
                     <FaUser className="mr-2" />
                     Name
@@ -102,7 +102,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="email"
-                    className="block text-gray-300 mb-2 flex items-center"
+                    className=" text-gray-300 mb-2 flex items-center"
                   >
                     <FaEnvelope className="mr-2" />
                     Email
@@ -126,7 +126,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="message"
-                    className="block text-gray-300 mb-2 flex items-center"
+                    className=" text-gray-300 mb-2 flex items-center"
                   >
                     <FaCommentAlt className="mr-2" />
                     Message
