@@ -7,6 +7,19 @@ export default function Hero() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 overflow-hidden">
       <div className="text-center px-4 relative">
+        {/* Photo Section */}
+        <motion.div
+          className="mb-8 mx-auto rounded-full overflow-hidden w-32 h-32 md:w-48 md:h-48 border-4 border-white"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          <img
+            src="https://images.unsplash.com/photo-1510379872535-9310dc6fd6a7?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Replace with the path to your photo
+            alt="Your Name"
+            className="object-cover w-full h-full"
+          />
+        </motion.div>
         <motion.h1
           className="text-5xl md:text-7xl font-bold text-white mb-4"
           initial={{ opacity: 0, y: -20 }}
