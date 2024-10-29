@@ -144,7 +144,12 @@ const ExperienceCard = ({ experience }) => {
           {/* Achievements Section */}
           {experience.achievements && (
             <div>
-              <h4 className="text-white font-semibold mb-2"> Achievements:</h4>
+              <h4 className="text-white font-semibold mb-2">
+                {" "}
+                {experience.type === "Bootcamp"
+                  ? "Achievements:"
+                  : "Role Responsibilities"}
+              </h4>
               <ul className="list-disc list-inside text-gray-300">
                 {experience.achievements.map((achievement, idx) => (
                   <li key={idx} className="mb-1">
@@ -181,7 +186,7 @@ const Experience = () => {
       title: "Business Development Officer",
       organization: "Ngernturbo Company Limited, Nonthaburi, Thailand",
       date: "Feb 2022 - Jan 2023",
-      skills: ["Java", "Golang", "React", "SQL", "Azure"],
+      skills: ["SQL", "Power Bi", "App script", "Google Sheets"],
       achievements: [
         "Retrieved and analyzed data using SQL to solve business problems.",
         "Designed and created dashboards with Power BI to support the business development team in making informed decisions.",

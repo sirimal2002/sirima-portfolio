@@ -117,7 +117,7 @@ export default function Projects() {
       title: "E-commerce Platform",
       description:
         "A e-commerce website with React and style by Tailwind framework Implemented features including product catalog, shopping cart, and summary page.",
-      tech: ["React", "Tailwind CSS", "Material-UI"],
+      tech: ["React", "Tailwind CSS"],
       image: "/pj2.png",
       features: [
         "Product search and filtering",
