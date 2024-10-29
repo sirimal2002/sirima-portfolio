@@ -118,20 +118,20 @@ export default function Projects() {
       description:
         "A e-commerce website with React and style by Tailwind framework Implemented features including product catalog, shopping cart, and summary page.",
       tech: ["React", "Tailwind CSS", "Material-UI"],
-      image: "../../src/assets/pj2.png",
+      image: "/pj2.png",
       features: [
         "Product search and filtering",
         "Shopping cart and checkout process",
         "Summary page with caluculate value",
       ],
-      github: "https://github.com/yourusername/ecommerce",
-      demo: "https://your-demo-link.com",
+      // github: "https://github.com/yourusername/ecommerce",
+      demo: "https://project-sandbox-wdb2.vercel.app/",
     },
     {
       title: "Pomodoro Timer",
       description: "This is Pomodoro Timer application built with React.",
       tech: ["React", "Tailwind CSS"],
-      image: "../../src/assets/pj3.png",
+      image: "/pj3.png",
       features: [
         "Work: 25-minute focus sessions",
         "Short Break: 5-minute breaks",
@@ -145,7 +145,7 @@ export default function Projects() {
       title: "Pokeman",
       description: "Pokemon hangman dealing with state sceen and local storage",
       tech: ["HTML", "CSS", "JavaScript"],
-      image: "../../src/assets/pj4.png",
+      image: "/pj4.png",
       features: ["Deal with sceen game", "Called poke api", "Local storage"],
       github: "https://github.com/sirimal2002/ws-pokemon-hangman",
       demo: "https://sirimal2002.github.io/ws-pokemon-hangman/",

@@ -214,19 +214,19 @@ const Experience = () => {
       ],
       images: [
         {
-          url: "../../src/assets/btc1.JPG",
+          url: "/btc1.JPG",
           caption: "Credit: skooldio",
         },
         {
-          url: "../../src/assets/btc2.JPG",
+          url: "/btc2.JPG",
           caption: "Credit: skooldio",
         },
         {
-          url: "../../src/assets/btc3.JPG",
+          url: "/btc3.JPG",
           caption: "Credit: skooldio",
         },
         {
-          url: "../../src/assets/btc4.JPG",
+          url: "/btc4.JPG",
           caption: "Credit: skooldio",
         },
       ],
