@@ -28,14 +28,14 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.6 }}
         >
           <a
-            href="https://github.com"
+            href="https://github.com/sirimal2002"
             className="text-white hover:text-gray-300 transition"
             aria-label="GitHub Profile"
           >
             <FaGithub size={24} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sirima-lowanitkiattikul-744a29212/"
             className="text-white hover:text-gray-300 transition"
             aria-label="LinkedIn Profile"
           >
