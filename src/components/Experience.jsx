@@ -82,7 +82,7 @@ const ExperienceCard = ({ experience }) => {
 
   return (
     <div className="bg-gray-800 rounded-lg overflow-hidden transition-all duration-300">
-      {/* Header - Always visible */}
+      {/* Header - Always visible  */}
       <div
         onClick={() => setIsExpanded(!isExpanded)}
         className="p-6 cursor-pointer hover:bg-gray-750 transition-colors"
