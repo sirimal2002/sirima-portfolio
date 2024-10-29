@@ -11,7 +11,6 @@ import {
   FaPhone,
   FaGithub,
   FaLinkedin,
-  FaTwitter,
 } from "react-icons/fa";
 
 export default function Contact() {
