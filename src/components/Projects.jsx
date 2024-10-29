@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-48 object-cover"
+        className="w-full h-64 object-cover"
       />
 
       {/* Basic Info - Always visible */}
@@ -116,54 +116,40 @@ export default function Projects() {
     {
       title: "E-commerce Platform",
       description:
-        "A full-stack e-commerce solution with React and Node.js. Implemented features including product catalog, shopping cart, user authentication, and payment processing.",
-      tech: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-      image: "../../src/assets/free-bg-1.png",
+        "A e-commerce website with React and style by Tailwind framework Implemented features including product catalog, shopping cart, and summary page.",
+      tech: ["React", "Tailwind CSS", "Material-UI"],
+      image: "../../src/assets/pj2.png",
       features: [
-        "User authentication and profile management",
         "Product search and filtering",
         "Shopping cart and checkout process",
-        "Order tracking and history",
+        "Summary page with caluculate value",
       ],
       github: "https://github.com/yourusername/ecommerce",
       demo: "https://your-demo-link.com",
-      challenges:
-        "Implemented real-time inventory tracking while handling concurrent transactions. Solved using MongoDB transactions and WebSocket updates.",
     },
-    // {
-    //   title: "Task Management App",
-    //   description:
-    //     "A collaborative task management application with real-time updates and team collaboration features.",
-    //   tech: ["React", "Firebase", "Material-UI"],
-    //   image: "/api/placeholder/400/301",
-    //   features: [
-    //     "Real-time task updates",
-    //     "Team collaboration tools",
-    //     "File attachments",
-    //     "Progress tracking",
-    //   ],
-    //   github: "https://github.com/yourusername/task-manager",
-    //   demo: "https://your-demo-link.com",
-    //   challenges:
-    //     "Managed complex state synchronization across multiple users. Implemented optimistic updates for better UX.",
-    // },
-    // {
-    //   title: "Weather Dashboard",
-    //   description:
-    //     "Real-time weather tracking application with historical data visualization and location-based forecasting.",
-    //   tech: ["React", "OpenWeather API", "ChartJS"],
-    //   image: "/api/placeholder/400/302",
-    //   features: [
-    //     "5-day weather forecast",
-    //     "Historical weather data",
-    //     "Location-based updates",
-    //     "Interactive weather maps",
-    //   ],
-    //   github: "https://github.com/yourusername/weather-app",
-    //   demo: "https://your-demo-link.com",
-    //   challenges:
-    //     "Optimized API calls to stay within rate limits while providing real-time updates. Implemented client-side caching.",
-    // },
+    {
+      title: "Pomodoro Timer",
+      description: "This is Pomodoro Timer application built with React.",
+      tech: ["React", "Tailwind CSS"],
+      image: "../../src/assets/pj3.png",
+      features: [
+        "Work: 25-minute focus sessions",
+        "Short Break: 5-minute breaks",
+        "Long Break: 15-minute breaks after 4 work sessions",
+        "Cycle tracking",
+      ],
+      github: "https://github.com/sirimal2002/pomodoro-timer",
+      demo: "https://pomodoro-timer-pearl.vercel.app/",
+    },
+    {
+      title: "Pokeman",
+      description: "Pokemon hangman dealing with state sceen and local storage",
+      tech: ["HTML", "CSS", "JavaScript"],
+      image: "../../src/assets/pj4.png",
+      features: ["Deal with sceen game", "Called poke api", "Local storage"],
+      github: "https://github.com/sirimal2002/ws-pokemon-hangman",
+      demo: "https://sirimal2002.github.io/ws-pokemon-hangman/",
+    },
   ];
 
   return (

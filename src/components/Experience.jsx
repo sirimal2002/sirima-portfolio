@@ -114,11 +114,13 @@ const ExperienceCard = ({ experience }) => {
       >
         <div className="p-6 pt-0">
           {/* Photo Carousel */}
-          {experience.images && experience.images.length > 0 && (
-            <div className="mb-6">
-              <Carousel images={experience.images} />
-            </div>
-          )}
+          {experience.images &&
+            experience.images.length > 0 &&
+            experience.type === "Bootcamp" && (
+              <div className="mb-6">
+                <Carousel images={experience.images} />
+              </div>
+            )}
 
           <p className="text-gray-300 mb-4">{experience.description}</p>
 
@@ -161,10 +163,10 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   const experiences = [
     {
-      type: "Work",
+      type: "Work experience",
       title: "Software Engineer",
-      organization: "SIAM COMMERCIAL BANK, BANGKOK, THAILAND",
-      date: "Feb 2024 - Present",
+      organization: "Siam Commercial Bank, Bangkok, Thailand",
+      date: "Feb 2023 - Present",
       skills: ["Java", "Golang", "React", "SQL", "Azure"],
       achievements: [
         "Designed and implemented data transformation and loading processes based on business requirements using Java Spring Boot.",
@@ -173,15 +175,30 @@ const Experience = () => {
         "Collaborated with outsourced teams to prepare and provide data for web interfaces.",
         "Prepared comprehensive deployment documentation for the project during its go-live phase.",
       ],
-      images: [
-        {
-          url: "../../src/assets/free-bg-1.png",
-          caption: "Working with team during final project presentation",
-        },
-        {
-          url: "../../src/assets/free-bg-2.png",
-          caption: "Participating in a coding workshop",
-        },
+    },
+    {
+      type: "Work experience",
+      title: "Business Development Officer",
+      organization: "Ngernturbo Company Limited, Nonthaburi, Thailand",
+      date: "Feb 2022 - Jan 2023",
+      skills: ["Java", "Golang", "React", "SQL", "Azure"],
+      achievements: [
+        "Retrieved and analyzed data using SQL to solve business problems.",
+        "Designed and created dashboards with Power BI to support the business development team in making informed decisions.",
+        "Wrote business requirements documents for the development of new financial products",
+        "Designed and developed financial calculation sheets using Google Sheets for branch officers",
+      ],
+    },
+    {
+      type: "Work experience",
+      title: "Business Analyst & Software Developer",
+      organization: "Nicety Nine Co., Ltd. , Bangkok, Thailand",
+      date: "SEP 2021 - DEC 2021",
+      skills: ["Flutter & Dart", "Figma", "Miro"],
+      achievements: [
+        "Part of  'Mind Fit' Project: web application that help doctors detect the depressed patients.",
+        "Design chatbot flow.",
+        "Create User Interface using Flutter & Dart.",
       ],
     },
     {
@@ -197,12 +214,20 @@ const Experience = () => {
       ],
       images: [
         {
-          url: "../../src/assets/free-bg-1.png",
-          caption: "Working with team during final project presentation",
+          url: "../../src/assets/btc1.JPG",
+          caption: "Credit: skooldio",
         },
         {
-          url: "../../src/assets/free-bg-2.png",
-          caption: "Participating in a coding workshop",
+          url: "../../src/assets/btc2.JPG",
+          caption: "Credit: skooldio",
+        },
+        {
+          url: "../../src/assets/btc3.JPG",
+          caption: "Credit: skooldio",
+        },
+        {
+          url: "../../src/assets/btc4.JPG",
+          caption: "Credit: skooldio",
         },
       ],
     },

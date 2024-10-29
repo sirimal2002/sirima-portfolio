@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Avatar from "../../src/assets/me.png";
+import Avatar from "../../src/assets/me1.jpg";
 
 const BioSection = () => {
   return (
@@ -37,7 +37,7 @@ const BioSection = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <motion.h2
-            className="text-2xl font-bold text-white mb-4"
+            className="text-3xl font-bold text-white mb-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
@@ -51,10 +51,10 @@ const BioSection = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            A passionate individual with a love for cooking, gaming, and caring
-            for two lovely cats, now eager to explore opportunities in software
-            engineering. Through my journey, I`&apos;`ve developed a unique
-            perspective that combines creativity with technical expertise.
+            I&apos;am a junior software engineer with a year of experience and a
+            background in electrical engineering. Driven With a commitment to
+            continuous learning, I enjoy taking on new challenges in the field
+            of software development
           </motion.p>
 
           <motion.p
@@ -63,11 +63,11 @@ const BioSection = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            When I`&apos;`m not coding, you can find me experimenting with new
-            recipes in the kitchen, exploring virtual worlds through gaming, or
-            spending quality time with my feline companions. This diverse range
-            of interests helps me maintain a balanced approach to
-            problem-solving and creativity in software development.
+            I&apos;m excited to expand my knowledge and opportunities to work
+            with different tech stacks beyond my current experience a
+            collaborative environment where I can learn from experienced
+            developers, and Involvement in projects that challenge me to solve
+            complex problems and develop new skills.
           </motion.p>
 
           {/* Social Links */}
@@ -78,8 +78,9 @@ const BioSection = () => {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <a
-              href="#"
+              href="/resume.pdf"
               className="text-blue-500 hover:text-blue-400 transition-colors"
+              download="Srima's resume"
             >
               <span className="inline-block p-2 border border-blue-500 rounded-full hover:bg-blue-500/10">
                 Download CV
@@ -96,15 +97,15 @@ const SkillsGrid = () => {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Java", "Python", "JavaScript", "TypeScript"],
+      skills: ["Java", "Golang", "HTML", "CSS", "JavaScript", "SQL"],
     },
     {
       title: "Tools",
-      skills: ["Git", "Docker", "VS Code", "Jenkins"],
+      skills: ["Git", "Postman", "Draw.io", "Figma", "G-suite and MS-suite"],
     },
     {
       title: "Cloud",
-      skills: ["Azure Data Factory", "AWS", "Google Cloud", "Azure DevOps"],
+      skills: ["Azure Data Factory"],
     },
   ];
 

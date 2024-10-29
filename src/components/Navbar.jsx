@@ -25,7 +25,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex-shrink-0">
               <a href="#" className="text-xl font-bold text-white">
-                Logo
+                My Portfolio
               </a>
             </div>
 

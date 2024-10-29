@@ -226,39 +226,25 @@ export default function Contact() {
               <h3 className="text-2xl font-bold text-white mb-4">Follow Me</h3>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://github.com/sirimal2002"
                   className="text-white hover:text-blue-500 transition"
                 >
                   <FaGithub size={24} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/sirima-lowanitkiattikul-744a29212/"
                   className="text-white hover:text-blue-500 transition"
                 >
                   <FaLinkedin size={24} />
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="text-white hover:text-blue-500 transition"
                 >
                   <FaTwitter size={24} />
-                </a>
+                </a> */}
               </div>
             </div>
-            {/* <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold text-white mb-4">Location</h3>
-              <div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968482413!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes+Square!5e0!3m2!1sen!2sus!4v1510579767645"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  title="Google Maps"
-                ></iframe>
-              </div>
-            </div> */}
           </motion.div>
         </div>
       </div>
