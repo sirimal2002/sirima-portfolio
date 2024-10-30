@@ -198,7 +198,7 @@ const Experience = () => {
       type: "Work experience",
       title: "Business Analyst & Software Developer",
       organization: "Nicety Nine Co., Ltd. , Bangkok, Thailand",
-      date: "SEP 2021 - DEC 2021",
+      date: "Sep 2021 - Dec 2021",
       skills: ["Flutter & Dart", "Figma", "Miro"],
       achievements: [
         "Part of  'Mind Fit' Project: web application that help doctors detect the depressed patients.",
@@ -210,7 +210,7 @@ const Experience = () => {
       type: "Bootcamp",
       title: "Web Development Bootcamp",
       organization: "Skooldio",
-      date: "Jan 2024 - March 2024",
+      date: "Sep 2024 - Nov 2024",
       description: "Intensive 12-week program focusing on web development",
       skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Figma"],
       achievements: [
