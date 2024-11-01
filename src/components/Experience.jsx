@@ -208,7 +208,7 @@ const Experience = () => {
     },
     {
       type: "Bootcamp",
-      title: "Web Development Bootcamp",
+      title: "Web Development Bootcamp Batch #2",
       organization: "Skooldio",
       date: "Sep 2024 - Nov 2024",
       description: "Intensive 12-week program focusing on web development",

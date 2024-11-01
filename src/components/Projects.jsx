@@ -65,9 +65,9 @@ const ProjectCard = ({ project }) => {
                     <li key={index}>{feature}</li>
                   )) || (
                     <>
-                      <li>Responsive design for all devices</li>
-                      <li>User authentication and authorization</li>
-                      <li>Real-time data updates</li>
+                      <li>...</li>
+                      <li>...</li>
+                      <li>...</li>
                     </>
                   )}
                 </ul>
