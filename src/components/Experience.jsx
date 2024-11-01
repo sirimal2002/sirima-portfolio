@@ -214,6 +214,7 @@ const Experience = () => {
       description: "Intensive 12-week program focusing on web development",
       skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Figma"],
       achievements: [
+        "Learned basics of Web development",
         "Developed a project e-commerce shop",
         "Collaborated with team of 3 on final project",
       ],
