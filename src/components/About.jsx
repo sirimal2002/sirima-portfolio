@@ -51,7 +51,7 @@ const BioSection = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            I&apos;am a junior software engineer with a year of experience and a
+            I&apos;m a junior software engineer with a year of experience and a
             background in electrical engineering. Driven With a commitment to
             continuous learning, I enjoy taking on new challenges in the field
             of software development

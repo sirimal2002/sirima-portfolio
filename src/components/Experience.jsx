@@ -10,7 +10,6 @@ import {
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Auto-play functionality
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prevIndex) =>

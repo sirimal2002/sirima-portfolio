@@ -19,7 +19,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          Software Developer
+          Software Engineer
         </motion.h2>
         <motion.div
           className="flex justify-center space-x-4"
