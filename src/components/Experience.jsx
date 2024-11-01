@@ -211,7 +211,7 @@ const Experience = () => {
       organization: "Skooldio",
       date: "Sep 2024 - Nov 2024",
       description: "Intensive 12-week program focusing on web development",
-      skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Figma"],
+      skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Figma"],
       achievements: [
         "Learned basics of Web development",
         "Developed a project e-commerce shop",
