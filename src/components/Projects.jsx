@@ -124,7 +124,7 @@ export default function Projects() {
         "Shopping cart and checkout process",
         "Summary page with caluculate value",
       ],
-      // github: "https://github.com/yourusername/ecommerce",
+      github: "https://github.com/Panchaya-M/project-sandbox-wdb2",
       demo: "https://project-sandbox-wdb2.vercel.app/",
     },
     {
